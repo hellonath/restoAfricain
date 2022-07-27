@@ -1,6 +1,6 @@
 
 nav {
-    background-color: rgb(162, 247, 186);
+    background-color: rgb(241, 224, 207);
 }
 
 .brand-logo {
@@ -81,7 +81,22 @@ main {
     background-color: white;
 }
 
+.two {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+audio {
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+p {
+   
+    margin-top: 30px;
+}
 
 /* -----------------PAGE GALLERIE------------------ */
 
@@ -98,7 +113,77 @@ h1 {
     font-family:'Times New Roman', Times, serif;
 }
 
+/* Zoomer */
+.zoom1 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom1:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+/* Dézoomer */
+.zoom {
+	-webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom:hover  {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
 
 /* -----------------PAGE ACCUEIL - CONTACT ------------------ */
 
+main {
+    background-color:rgb(243, 237, 231);
+}
 
+.mention_legal {
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+}
+
+.contact, .home_global, .home_titre {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;   
+}
+
+ li {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home_titre {
+    font-size: 30px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.anime {
+    margin-bottom: 150px;
+}
+
+.tableau {
+    width: 500px;
+    height: 420px;
+    border: 3px solid white;
+}

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  alert("African Restaurant");
+  alert("The African Villa");
   $(".sidenav").sidenav();
 });
 
